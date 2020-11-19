@@ -27,7 +27,7 @@ This website determines in depth details about my digital personality
 
 
 ## Last Modified
- 2020-11-18
+ 2020-11-19
 
 
 ## Author
