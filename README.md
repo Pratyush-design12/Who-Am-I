@@ -9,6 +9,17 @@ Progressions
 - Project Folder Structure
 - Annotating ReadMe.md Files with GitHub Markdown (Unit End Project)
 - Text Data, <a herf="">Click Here</a>
+-Progressions
+- Project Folder Structure (See above)
+- Annotating ReadMe.md Files with GitHub Markdown (starting in Other End-unit projects)
+- Text Data, <a href="https://github.com/QEHS-Websites/LearningHTML.github.io#text-data">Click Here to jump below</a>
+- Build index.html with footer
+- Save as childTemplate.html
+- Modify index.html to match website planning to childPages, <a href="">Click Here to skip below, when URL Entered</a>
+- Note: if full list of items is not possible, just to a place holder with TBA
+- Title
+- Header & Footer with Responsive inline font-size with vw units
+- Create NAV, SECTION, and ASIDE Columns (Note: Aside is out of order so items can be read)
 
 
 ## Text Data
