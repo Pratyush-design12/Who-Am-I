@@ -38,14 +38,14 @@ This website expresses details about my digital personality
 
 
 ## Last Modified
- 2020-11-26
+ 2020-11-30
 
 
 ## Author
  Pratyush Prasad
 
 ## 50-word Description of the ME
-I’m comfortable adjusting to any situation and I don’t get flustered easily when faced with unexpected challenges. I've confirmed this many times throughout my life by taking extreme challenges solely for pure dedication and enjoyment.
+I’m comfortable adjusting to any situation and I don’t get flustered easily when faced with unexpected challenges. I am hardworking and extremely passionate
 
 ## 50-word Description of My Career Path
 Since I have acquired problem-solving and risk taking skills, I consider myself to become a Chief Executive Officer of multinational company founded by me. Meanwhile for education I am considering to pursue a Masters in Business (MBA) which will hopefully guide me throughout my vigorous career path.
