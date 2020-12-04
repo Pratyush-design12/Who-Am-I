@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
@@ -6,44 +5,111 @@
     <!-- Used by keyboard -->
     <meta charset="utf-8">
 
-    <title>Learning HTML</title>
+    <title>Learning HTML, Splash Page</title>
 
-
+    <!-- Used by Browser or Google Search-->
     <meta name="author" content="Pratyush Prasad">
-    <meta name="description" content="This website expresses details about my digital personality">
-    <meta name="keywords" content="Who am I, Inline CSS, HTML, learning, Pratyush Prasad">
+    <meta name="description" content="Learning HTML by building a simple Website">
+    <meta name="keywords" content="boilerplate, starter code, HTML, learning">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Content give value for name or http-equiv attribute, text entry in string or array string -->
 
+    <!-- meta http-equiv="default-style" content=""--> <!-- content matches css link exactly-->
+
+    <!-- Other meta attributes to be aware of -->
+
+    <!-- meta http-equiv="refresh" content="30"-->
+    <!-- Content forces a Internet Request to refresh webpage every "time value in seconds" -->
+    <!-- Use this when refreshes are needed -->
+
+    <!-- meta http-equiv="content-type" content="text/html; charset=UTF-8" -->
+    <!-- Already specified in the charset above-->
+
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      /* div {border: thin dotted red;} */
+      .header {
+        /* border: 1px solid red; */
+        padding: 15px;
+      }
+      .menu {
+        width: 25%;
+        float: left;
+        padding: 15px;
+        /* border: 1px solid red; */
+      }
+      .main {
+        width: 50%;
+        float: left;
+        padding: 15px;
+        /* border: 1px solid red; */
+      }
+      .aside {
+        width: 25%;
+        float: left;
+        padding: 15px;
+        /* border: 1px solid red; */
+      }
+      .footer {
+        /* border: 1px solid red; */
+        padding: 15px;
+      }
+    </style>
 
   </head>
-  <body>
-    <div>
-      <header><h1 style="font-size:4.5vw">Who Am I Project</h1></header>
-    </div>
-    <div>
-      <nav>
-        <a style="font-size:1.1vw">This website determines in depth details about my digital personality</h3></nav>
-    </div>
-    <div>
-      <aside><p>
-        <section>
-        <a style="font-size:1.vw">I’m comfortable adjusting to any situation and don’t get flustered easily when faced with unexpected challenges. I've proved this many times throughout my life by taking extreme challenges solely for pure dedication and enjoyment.</p></aside>
-    </div>
-    <div>
-      <section>
-        <h3 style="font-size:1.2vw">Career path:</h3>
-        <a style="font-size:1vw">Since I have acquired problem-solving and risk taking skills, I consider myself to become a Chief Executive Officer of multinational company founded by me. Meanwhile for education I am considering to pursue a Masters in Business (MBA) which will hopefully guide me throughout my vigorous career path.</a>
 
+  <body>
+    <div class="header">
+      <header><h1 style="font-size:5.5vw">Learning HTML, Example Splash Page</h1></header>
+    </div>
+    <div class="menu">
+      <nav><h3>Navigation with no viewport in h3</h3></nav>
+    </div>
+    <div class="main">
+      <section>
+        <h3 style="font-size:2.5vw">Section 1</h3>
+        <a style="font-size:1vw"> Notice all Semantic Tags have Responsive Web Design Except NAV and ASIDE.</a>
+        <br><a style="font-size:1vw">This will come later after 3-column Flex-Box Example is provided,
+          <a href="">click here for that example when the URL is activated</a></a>
+        <br>
         <article>
-          <p style="font-size:1.1vw">Here are hyperlinks to Other Pages: </p>
+          <p style="font-size:1vw">Here are hyperlinks to Experiement Pages: </p>
           <!-- See the HTML .txt document for a summary-->
           <ol style="font-size:1vw" type="A">
-            <li style="font-size:1vw"> Academic Skills: <a href="childPages\AcademicSkills.html">click here</a>
-            <li style="font-size:1vw"> Hobbies: <a href="childPages\AcademicSkills.html">click here</a>
-            <li style="font-size:1vw"> Athlete: <a href="childPages\Athlete.html">click here></a>
+            <li style="font-size:1vw"> Meta Data Example: <a href="..\MetaData.html" target="_blank">Open this in ATOM to see meta data changes :)</a>
+            <li style="font-size:1vw"> Footer Blockquote Example: <a href="..\childTemplate.html" target="_blank">click here</a>
+            <li style="font-size:1vw"> Template Exemplar: <a href="..\childTemplate.html" target="_blank">click here</a>
+            <li style="font-size:1vw"> Headings and Paragraph Tags: <a href="..\Exp H1-H6 P.html" target="_blank">click here</a>
+            <li style="font-size:1vw"> Subscript and Superscript Tags: <a href="..\Exp Sub and Superscript.html" target="_blank">click here</a>
+            <li style="font-size:1vw"> Image Lesson: <a href=".\Image Lesson.html" target="_blank">click here</a>
+            <li style="font-size:1vw"> Laying out DIVs (using HTML Boilerplate): <a href="..\Exp DIVs.html" target="_blank">click here</a>
 
           <br>
         </article>
       </section>
     </div>
+    <div class="aside">
+      <aside><p>This is the aside space with no viewport in a p-tag.</p></aside>
+    </div>
   </body>
+
+  <footer class="footer">
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br>
+    <blockquote cite="https://www.forbes.com/sites/robertberger/2014/04/30/top-100-money-quotes-of-all-time/?sh=1255bbfc4998">
+      <!-- Date Accessed 20201120-->
+    </blockquote>
+    <p>
+      <strong>"A wise person should have money in their head, but not in their heart."</strong>
+      <em><a href="https://www.forbes.com/sites/robertberger/2014/04/30/top-100-money-quotes-of-all-time/?sh=1255bbfc4998" target="_blank">
+         - Will Rogers</a>
+      </em>
+    </p>
+    <p>&copy Pratyush Prasad, powered by Pratyush-Design12 in GitHub</p>
+
+  </footer>
+
+  </html>
+© 2020 GitHub, Inc.
